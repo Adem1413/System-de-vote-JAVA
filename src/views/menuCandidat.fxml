@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MenuCandidatController">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="119.0" prefWidth="609.0" style="-fx-background-color: #395985;">
+         <children>
+            <Button fx:id="btnlcav1c" layoutX="78.0" layoutY="32.0" mnemonicParsing="false" onAction="#lcc" prefHeight="46.0" prefWidth="115.0" style="-fx-background-color: white;" text="Liste Candidats" textFill="#395985">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnrav1c" layoutX="426.0" layoutY="34.0" mnemonicParsing="false" onAction="#rcc" prefHeight="46.0" prefWidth="115.0" style="-fx-background-color: white;" text="Résultat" textFill="#395985">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="281.0" fitWidth="398.0" layoutX="112.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../login/images/LOGO-vote.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnlogoutc" layoutX="512.0" layoutY="363.0" mnemonicParsing="false" onAction="#loc" prefHeight="32.0" prefWidth="78.0" style="-fx-background-color: #395985;" text="LogOut" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

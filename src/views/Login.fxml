@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <AnchorPane layoutX="342.0" prefHeight="401.0" prefWidth="358.0" style="-fx-background-color: #395985;">
+         <children>
+            <PasswordField fx:id="txtpassword" layoutX="55.0" layoutY="262.0" prefHeight="26.0" prefWidth="247.0" promptText="Password" />
+            <TextField fx:id="txtusername" layoutX="55.0" layoutY="208.0" prefHeight="26.0" prefWidth="247.0" promptText="Username">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Blend />
+               </effect>
+            </TextField>
+            <Button fx:id="btnlogin" layoutX="107.0" layoutY="328.0" mnemonicParsing="false" onAction="#login" prefHeight="30.0" prefWidth="144.0" style="-fx-background-color: white;" text="SignIn" textFill="#395985" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="111.0" layoutY="135.0" prefHeight="18.0" prefWidth="126.0" text="   Sign In" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="79.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../login/images/Logo_ENICarthage.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="41.0" layoutY="17.0" prefHeight="124.0" prefWidth="258.0" text="WELCOME TO THE VOTING SYSTEM" textAlignment="CENTER" textFill="#395985" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="signupbtn" layoutX="84.0" layoutY="296.0" mnemonicParsing="false" onAction="#tosignup" prefHeight="28.0" prefWidth="180.0" style="-fx-background-color: #395985;" text="SignUp" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <ImageView fitHeight="168.0" fitWidth="279.0" layoutX="56.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../login/images/LOGO-vote.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

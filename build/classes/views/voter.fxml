@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="style" stylesheets="@voter.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.VoterController">
+   <children>
+      <Label layoutX="100.0" layoutY="34.0" text="Election  2022-2023" textFill="#e4fbff">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <Button layoutX="25.0" layoutY="334.0" mnemonicParsing="false" onAction="#majnbvotes" prefHeight="33.0" prefWidth="162.0" text="Voter" textFill="#6f63b1" textOverrun="CLIP" />
+      <Button fx:id="refreshbtn" layoutX="219.0" layoutY="334.0" mnemonicParsing="false" onAction="#refreshh" prefHeight="34.0" prefWidth="162.0" text="refresh" />
+      <VBox fx:id="radiobtnvbox" layoutX="115.0" layoutY="102.0" prefHeight="200.0" prefWidth="100.0" />
+      <Button fx:id="btnmmv" layoutX="426.0" layoutY="334.0" mnemonicParsing="false" onAction="#mainmenuv" prefHeight="34.0" prefWidth="154.0" text="Resultat" />
+   </children>
+</AnchorPane>

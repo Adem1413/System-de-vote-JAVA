@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="527.0" prefWidth="715.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuController">
+    <stylesheets>
+        <URL value="@mainmenu.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="146.0" prefWidth="734.0" style="-fx-background-color: #395985;" styleClass="mainFxmlClass">
+         <stylesheets>
+            <URL value="@mainmenu.css" />
+         </stylesheets>
+         <children>
+            <Button fx:id="votebtn" layoutX="453.0" layoutY="45.0" mnemonicParsing="false" onAction="#menulistvote" prefHeight="55.0" prefWidth="157.0" text="voter" />
+            <Button fx:id="menucandidatbtn" layoutX="128.0" layoutY="45.0" mnemonicParsing="false" onAction="#menulistcandidat" prefHeight="55.0" prefWidth="157.0" text="candidats" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="336.0" fitWidth="537.0" layoutX="130.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../login/images/LOGO-vote.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

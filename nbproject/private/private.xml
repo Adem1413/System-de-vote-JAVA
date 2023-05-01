@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/SignUpController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/CandidatListCandidatController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/login/Login.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/Resultat.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/Login.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/mainMenu.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/MainMenuController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/ListeCandidatController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/models/Rescandidat.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/usermain.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/candidatLogin.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/VoterController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/candidatSignUp.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/menuCandidat.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/voter.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/candidatListCandidat.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/UsermainController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/menuapresvote.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/listeCandidat.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/MenuCandidatController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/CandidatLoginController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/models/Candidat.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/listecandidat.css</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/CandidatSignUpController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/views/SignUp.fxml</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/LoginController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/MenuapresvoteController.java</file>
+            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/MVC/src/controllers/ResultatController.java</file>
+        </group>
+    </open-files>
+</project-private>

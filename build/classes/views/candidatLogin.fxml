@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CandidatLoginController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="292.0" style="-fx-background-color: #395985;">
+         <children>
+            <Button fx:id="signuplc" layoutX="94.0" layoutY="296.0" mnemonicParsing="false" onAction="#tosignup" prefHeight="42.0" prefWidth="81.0" text="SignUp" />
+            <Label layoutX="92.0" layoutY="58.0" />
+            <Label layoutX="102.0" layoutY="68.0" />
+            <Label layoutX="8.0" layoutY="112.0" prefHeight="58.0" prefWidth="282.0" text="WELCOME TO THE VOTING  " textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="97.0" layoutY="156.0" prefHeight="58.0" prefWidth="89.0" text="SYSTEM" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="395.0" layoutY="121.0" prefHeight="58.0" prefWidth="100.0" text="Login" textFill="#395985">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernamelc" layoutX="353.0" layoutY="220.0" prefHeight="28.0" prefWidth="178.0" promptText="Username" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #395985;" />
+      <PasswordField fx:id="passwordlc" layoutX="352.0" layoutY="268.0" prefHeight="28.0" prefWidth="178.0" promptText="Password" style="-fx-border-width: 0px 0px 2px 0px; -fx-border-color: #395985;" />
+      <Button fx:id="btnloginc" layoutX="391.0" layoutY="331.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="107.0" text="Login" />
+      <ImageView fitHeight="84.0" fitWidth="71.0" layoutX="300.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../login/images/Université_Carthage_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="134.0" layoutX="473.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../login/images/Logo_ENICarthage.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
